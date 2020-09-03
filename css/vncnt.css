@@ -158,3 +158,9 @@ p.reset-margin {
 
 /* Larger than tablet */
 @media (min-width: 1200px) {}
+
+@media screen and (max-width: 600px) {
+  .landingpage.landingpage {
+    margin-top: 150px;
+  } /* The margin-top: 150px, when the width is 600px or smaller */
+}
