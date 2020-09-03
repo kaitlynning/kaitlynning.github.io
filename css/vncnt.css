@@ -110,7 +110,7 @@ p.reset-margin {
 	color: #555555;
 }
 
-.project-container.project-container {
+.project-container.project-container.project-container {
   display: flex;
 }
 
@@ -167,7 +167,7 @@ p.reset-margin {
   .landingpage.landingpage {
     margin-top: 150px;
   } /* The margin-top: 150px, when the width is 600px or smaller */
-  .project-container.project-container {
+  .project-container.project-container.project-container {
     /* display:flex; */
     justify-content: center;
   }
