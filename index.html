@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
   <style> 
-    .tab { 
-        display: inline-block; 
-        width: 400px;
-        height:800px;
-        margin:1em 
-    } 
+    .landingpage { 
+      @media screen and (max-width: 600px) {
+        .landingpage {
+          margin-top: 150px;
+        } /* The width is 100%, when the viewport is 600px or smaller */
+      }
+    }
   </style> 
 	<meta name="generator" content="Hugo 0.56.1" />
   <meta charset="utf-8">
