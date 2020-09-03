@@ -110,6 +110,10 @@ p.reset-margin {
 	color: #555555;
 }
 
+.project-container {
+  display: flex;
+}
+
 /* Larger than mobile (default point when grid becomes active) */
 @media (min-width: 600px) {
   h1.h3-like, h2.h3-like {
@@ -163,4 +167,10 @@ p.reset-margin {
   .landingpage.landingpage {
     margin-top: 150px;
   } /* The margin-top: 150px, when the width is 600px or smaller */
+  .project-container {
+    /* display:flex; */
+    justify-content: center;
+  }
+
 }
+
